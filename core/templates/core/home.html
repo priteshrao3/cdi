@@ -1,0 +1,49 @@
+{% extends 'core/base.html'%}
+{% load static %}
+{% block content %}
+<div>
+    <div class="text-center">
+        <img src="{% static 'core/images/pritesh.jpg'%}" 
+    alt="homepic" class="img-thumbnail mt-3" width="150px" height="250px">
+    </div>
+    <div class="mt-5 text-white mx-5 text-justify">
+        <h2 class="st-font font-weight-bold">Pritesh Rao</h2><hr>
+        <div class="px-4" style="line-height: 2rem;">
+            <p>Ballia, Uttar Pradesh<br>
+                <a href="#">priteshrao3@gmail.com</a><br>
+                9170475552
+            </p>
+            
+            <p>I want to excel in this field with hard work, perseverance and dedication.
+                Willing to relocate: Anywhere
+            </p>
+
+            <h3 class="mt-5">Work Experience</h3><hr>
+            <h4>Django Developer </h4>
+                I have 6 month + Self Study.<br>
+                My Strength.<br>
+                Flexibility,Self Motivated.Honesty and Integrity.Team Work Skills.<br>
+            </p><hr>
+
+            <h3>Education Quelification</h3>
+            Bachelor's in Computer Science & Engineering<br>
+            J.S UNIVERSITY - Uttar Pradesh<br>
+            September 2019 to Present<hr>
+        <div class="col-sm-4">
+            <h3>Skills</h3>
+            <ul>
+                <li>Core Python</li>
+                <li>Advance Python</li>
+                <li>Django</li>
+                <li>DataBase</li>
+                <li>SQL</li>
+                <li>HTML, CSS, JS</li>
+            </ul>
+        </div>      
+    </div>
+    <div class="text-center">
+        <a href="{% url 'contact' %}" class="btn btn-outline-warning my-5 mr-5">Hire me</a>
+        <a href="{% url 'contact' %}" class="btn btn-outline-info my-5">Contacts</a>
+    </div>
+</div>
+{% endblock content %}

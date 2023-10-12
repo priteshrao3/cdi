@@ -1,0 +1,132 @@
+{% extends 'core/base.html'%}
+{% block content %}
+{% load static %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-4 border-bottom">Programs</h1>
+    <div class="row text-center text-white mb-5">
+        
+        <div class="col-sm-4">
+
+            <div class="text-center">
+            <img src="{% static 'core/images/python.jpg'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+
+            <h3>Core Python</h3>
+            <p class="text">Python is an interpreted high-level general-purpose programming language. 
+                Python's design philosophy emphasizes code readability with its notable use of significant 
+                indentation. Its language constructs as well as its object-oriented approach aim to help 
+                programmers write clear, logical code for small and large-scale projects.</p>
+        </div>
+
+        <div class="col-sm-4">
+
+            <div class="text-center">
+                <img src="{% static 'core/images/python.jpg'%}" 
+                alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+
+            <h3>Advance Python</h3>
+            <p class="text text-justify">Python is a programming language known for its code readability and use of whitespace for 
+                user-friendly design, making it easier to use the purpose of coding. 
+                Its approach aims to help programmers write clear, logical code for large-scale projects.</p>
+        </div>
+
+        <div class="col-sm-4">
+            
+            <div class="text-center">
+            <img src="{% static 'core/images/django.jpg'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+            
+            <h3>Django</h3>
+            <p class="text-justify">Django is a high-level Python web framework that encourages rapid development and clean, 
+                pragmatic design. Built by experienced developers, it takes care of much of the hassle of web development, 
+                so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.</p>
+        </div>
+
+    </div>   
+        <div class="row text-center text-white mb-5">
+
+            <div class="col-sm-4">
+           
+           <div class="text-center">
+            <img src="{% static 'core/images/database.jpg'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+
+            <h3>DataBase</h3>
+            <p class="text">In computing, a database is an organized collection of data stored and accessed electronically 
+            from a computer system. Where databases are more complex they are often developed using formal 
+            design and modeling techniques.</p>
+        </div>
+
+        <div class="col-sm-4">
+           
+           <div class="text-center">
+            <img src="{% static 'core/images/sqlite.gif'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+
+            <h3>SQL</h3>
+            <p class="text">SQLite is a C-language library that implements a small, fast, self-contained, 
+                high-reliability, full-featured, SQL database engine. SQLite is the most used database 
+                engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside 
+                countless other applications that people use every day. More</p>
+        </div>
+
+        <div class="col-sm-4">
+            
+            <div class="text-center">
+            <img src="{% static 'core/images/html.png'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+
+            <h3>HTML</h3>
+            <p class="text">The HyperText Markup Language, or HTML is the standard markup language for documents 
+                designed to be displayed in a web browser. It can be assisted by technologies such as 
+                Cascading Style Sheets and scripting languages such as JavaScript. Wikipedia</p>
+        </div>
+    </div>
+    <div class="row text-center text-white mb-5">
+        <div class="col-sm-4">
+           
+            <div class="text-center">
+            <img src="{% static 'core/images/css.png'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+
+            <h3>CSS</h3>
+            <p class="text">Cascading Style Sheets is a style sheet language used for describing the presentation 
+                of a document written in a markup language such as HTML. CSS is a cornerstone technology 
+                of the World Wide Web, alongside HTML and JavaScript.</p>
+        </div>
+        <div class="col-sm-4">
+        
+        <div class="text-center">
+            <img src="{% static 'core/images/js.jpg'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+            
+
+            <h3>JavaScript.</h3>
+            <p class="text">JavaScript, often abbreviated as JS, is a programming language that conforms to the 
+            ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. 
+            It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, 
+            and first-class functions. </p>
+        </div>
+        <div class="col-sm-4">
+            
+            <div class="text-center">
+            <img src="{% static 'core/images/jquery.png'%}" 
+            alt="seopic" class="rounded-circle" width="120px" height="110px">
+            </div>
+            
+            <h3>jQuery</h3>
+            <p class="text">jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation,
+             as well as event handling, CSS animation, and Ajax. It is free, open-source software using the permissive 
+             MIT License. As of May 2019, jQuery is used by 73% of the 10 million most popular websites. </p>
+        </div>
+    </div>
+</div> 
+{% endblock content %}
